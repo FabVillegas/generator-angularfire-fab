@@ -1,0 +1,40 @@
+{
+  "name": "generator-angularfire-fab",
+  "version": "0.2.0",
+  "description": "Yeoman generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "FabVillegas/generator-angularfire-fab",
+  "author": {
+    "name": "Fabritzio Villegas",
+    "email": "f.villegas93@gmail.com",
+    "url": "https://github.com/FabVillegas"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "fab",
+    "angularfire",
+    "firebase"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.17.0",
+    "chalk": "^0.5.0",
+    "yosay": "^0.3.0",
+    "colors": "~1.0.3"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}

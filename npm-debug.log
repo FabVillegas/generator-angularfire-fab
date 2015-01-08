@@ -1,0 +1,119 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\Fabritzio\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\Fabritzio\\AppData\\Roaming\\npm-cache\\generator-angularfire-fab\\0.2.0\\package.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\Fabritzio\AppData\Roaming\npm-cache\generator-angularfire-fab\0.2.0\package.tgz
+13 verbose folder .
+14 info prepublish generator-angularfire-fab@0.2.0
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\Fabritzio\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile f0ded0a3-ngularfire-fab-0-2-0-package-tgz tar://C:\Users\Fabritzio\AppData\Roaming\npm-cache\generator-angularfire-fab\0.2.0\package.tgz
+18 verbose lock tar://C:\Users\Fabritzio\AppData\Roaming\npm-cache\generator-angularfire-fab\0.2.0\package.tgz C:\Users\Fabritzio\AppData\Roaming\npm-cache\f0ded0a3-ngularfire-fab-0-2-0-package-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile f0ded0a3-ngularfire-fab-0-2-0-package-tgz tar://C:\Users\Fabritzio\AppData\Roaming\npm-cache\generator-angularfire-fab\0.2.0\package.tgz
+22 silly lockFile f0ded0a3-ngularfire-fab-0-2-0-package-tgz tar://C:\Users\Fabritzio\AppData\Roaming\npm-cache\generator-angularfire-fab\0.2.0\package.tgz
+23 silly lockFile f75fa789-or-angularfire-fab-0-2-0-package C:\Users\Fabritzio\AppData\Roaming\npm-cache\generator-angularfire-fab\0.2.0\package
+24 verbose lock C:\Users\Fabritzio\AppData\Roaming\npm-cache\generator-angularfire-fab\0.2.0\package C:\Users\Fabritzio\AppData\Roaming\npm-cache\f75fa789-or-angularfire-fab-0-2-0-package.lock
+25 silly lockFile f75fa789-or-angularfire-fab-0-2-0-package C:\Users\Fabritzio\AppData\Roaming\npm-cache\generator-angularfire-fab\0.2.0\package
+26 silly lockFile f75fa789-or-angularfire-fab-0-2-0-package C:\Users\Fabritzio\AppData\Roaming\npm-cache\generator-angularfire-fab\0.2.0\package
+27 silly lockFile 3a52ce78- .
+28 silly lockFile 3a52ce78- .
+29 silly publish { name: 'generator-angularfire-fab',
+29 silly publish   version: '0.2.0',
+29 silly publish   description: 'Yeoman generator',
+29 silly publish   license: 'MIT',
+29 silly publish   main: 'app/index.js',
+29 silly publish   repository:
+29 silly publish    { type: 'git',
+29 silly publish      url: 'https://github.com/FabVillegas/generator-angularfire-fab' },
+29 silly publish   author:
+29 silly publish    { name: 'Fabritzio Villegas',
+29 silly publish      email: 'f.villegas93@gmail.com',
+29 silly publish      url: 'https://github.com/FabVillegas' },
+29 silly publish   engines: { node: '>=0.10.0' },
+29 silly publish   scripts: { test: 'mocha' },
+29 silly publish   files: [ 'app' ],
+29 silly publish   keywords: [ 'yeoman-generator', 'fab', 'angularfire', 'firebase' ],
+29 silly publish   dependencies:
+29 silly publish    { 'yeoman-generator': '^0.17.0',
+29 silly publish      chalk: '^0.5.0',
+29 silly publish      yosay: '^0.3.0',
+29 silly publish      colors: '~1.0.3' },
+29 silly publish   devDependencies: { mocha: '*' },
+29 silly publish   peerDependencies: { yo: '>=1.0.0' },
+29 silly publish   readme: '# generator-angularfire-fab [![Build Status](https://secure.travis-ci.org/FabVillegas/generator-angularfire-fab.png?branch=master)](https://travis-ci.org/FabVillegas/generator-angularfire-fab)\n\n> [Yeoman](http://yeoman.io) generator\n\n\n## Getting Started\n\n### What is Yeoman?\n\nTrick question. It\'s not a thing. It\'s this guy:\n\n![](http://i.imgur.com/JHaAlBJ.png)\n\nBasically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.\n\nNot every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*\n\n```bash\nnpm install -g yo\n```\n\n### Yeoman Generators\n\nYeoman travels light. He didn\'t pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.\n\nTo install generator-angularfire-fab from npm, run:\n\n```bash\nnpm install -g generator-angularfire-fab\n```\n\nFinally, initiate the generator:\n\n```bash\nyo angularfire-fab\n```\n\n### Getting To Know Yeoman\n\nYeoman has a heart of gold. He\'s a person with feelings and opinions, but he\'s very easy to work with. If you think he\'s too opinionated, he can be easily convinced.\n\nIf you\'d like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).\n\n\n## License\n\nMIT\n',
+29 silly publish   readmeFilename: 'README.md',
+29 silly publish   bugs: { url: 'https://github.com/FabVillegas/generator-angularfire-fab/issues' },
+29 silly publish   homepage: 'https://github.com/FabVillegas/generator-angularfire-fab',
+29 silly publish   _id: 'generator-angularfire-fab@0.2.0',
+29 silly publish   _shasum: 'a9b7f551a2cdfac317bcaeefd8c1182c6f842fc6',
+29 silly publish   _from: '.' }
+30 verbose request where is /generator-angularfire-fab
+31 verbose request registry https://registry.npmjs.org/
+32 verbose request id 8adb68efe37b6963
+33 verbose url raw /generator-angularfire-fab
+34 verbose url resolving [ 'https://registry.npmjs.org/', './generator-angularfire-fab' ]
+35 verbose url resolved https://registry.npmjs.org/generator-angularfire-fab
+36 verbose request where is https://registry.npmjs.org/generator-angularfire-fab
+37 info trying registry request attempt 1 at 10:03:17
+38 http PUT https://registry.npmjs.org/generator-angularfire-fab
+39 http 403 https://registry.npmjs.org/generator-angularfire-fab
+40 verbose headers { date: 'Thu, 08 Jan 2015 16:03:15 GMT',
+40 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+40 verbose headers   'content-type': 'application/json',
+40 verbose headers   'cache-control': 'max-age=60',
+40 verbose headers   'content-length': '4821',
+40 verbose headers   'accept-ranges': 'bytes',
+40 verbose headers   via: '1.1 varnish',
+40 verbose headers   'x-served-by': 'cache-ord1727-ORD',
+40 verbose headers   'x-cache': 'MISS',
+40 verbose headers   'x-cache-hits': '0',
+40 verbose headers   'x-timer': 'S1420732995.045382,VS0,VE131',
+40 verbose headers   'keep-alive': 'timeout=10, max=50',
+40 verbose headers   connection: 'Keep-Alive' }
+41 error publish Failed PUT 403
+42 error Error: forbidden cannot modify pre-existing version: 0.2.0
+42 error old={"name":"generator-angularfire-fab","version":"0.2.0","description":"Yeoman generator","license":"MIT","main":"app/index.js","repository":{"type":"git","url":"https://github.com/FabVillegas/generator-angularfire-fab"},"author":{"name":"Fabritzio Villegas","email":"f.villegas93@gmail.com","url":"https://github.com/FabVillegas"},"engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"files":["app"],"keywords":["yeoman-generator","fab","angularfire","firebase"],"dependencies":{"yeoman-generator":"^0.17.0","chalk":"^0.5.0","yosay":"^0.3.0","colors":"~1.0.3"},"devDependencies":{"mocha":"*"},"peerDependencies":{"yo":">=1.0.0"},"bugs":{"url":"https://github.com/FabVillegas/generator-angularfire-fab/issues"},"homepage":"https://github.com/FabVillegas/generator-angularfire-fab","_id":"generator-angularfire-fab@0.2.0","_shasum":"a9b7f551a2cdfac317bcaeefd8c1182c6f842fc6","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"fabvillegas","email":"f.villegas93@gmail.com"},"maintainers":[{"name":"fabvillegas","email":"f.villegas93@gmail.com"}],"dist":{"shasum":"a9b7f551a2cdfac317bcaeefd8c1182c6f842fc6","tarball":"http://registry.npmjs.org/generator-angularfire-fab/-/generator-angularfire-fab-0.2.0.tgz"}}
+42 error new={"name":"generator-angularfire-fab","version":"0.2.0","description":"Yeoman generator","license":"MIT","main":"app/index.js","repository":{"type":"git","url":"https://github.com/FabVillegas/generator-angularfire-fab"},"author":{"name":"Fabritzio Villegas","email":"f.villegas93@gmail.com","url":"https://github.com/FabVillegas"},"engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"files":["app"],"keywords":["yeoman-generator","fab","angularfire","firebase"],"dependencies":{"yeoman-generator":"^0.17.0","chalk":"^0.5.0","yosay":"^0.3.0","colors":"~1.0.3"},"devDependencies":{"mocha":"*"},"peerDependencies":{"yo":">=1.0.0"},"readme":"# generator-angularfire-fab [![Build Status](https://secure.travis-ci.org/FabVillegas/generator-angularfire-fab.png?branch=master)](https://travis-ci.org/FabVillegas/generator-angularfire-fab)\u000a\u000a> [Yeoman](http://yeoman.io) generator\u000a\u000a\u000a## Getting Started\u000a\u000a### What is Yeoman?\u000a\u000aTrick question. It's not a thing. It's this guy:\u000a\u000a![](http://i.imgur.com/JHaAlBJ.png)\u000a\u000aBasically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.\u000a\u000aNot every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*\u000a\u000a```bash\u000anpm install -g yo\u000a```\u000a\u000a### Yeoman Generators\u000a\u000aYeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.\u000a\u000aTo install generator-angularfire-fab from npm, run:\u000a\u000a```bash\u000anpm install -g generator-angularfire-fab\u000a```\u000a\u000aFinally, initiate the generator:\u000a\u000a```bash\u000ayo angularfire-fab\u000a```\u000a\u000a### Getting To Know Yeoman\u000a\u000aYeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.\u000a\u000aIf you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).\u000a\u000a\u000a## License\u000a\u000aMIT\u000a","readmeFilename":"README.md","bugs":{"url":"https://github.com/FabVillegas/generator-angularfire-fab/issues"},"homepage":"https://github.com/FabVillegas/generator-angularfire-fab","_id":"generator-angularfire-fab@0.2.0","_shasum":"a9b7f551a2cdfac317bcaeefd8c1182c6f842fc6","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"fabvillegas","email":"f.villegas93@gmail.com"},"maintainers":[{"name":"fabvillegas","email":"f.villegas93@gmail.com"}],"dist":{"shasum":"a9b7f551a2cdfac317bcaeefd8c1182c6f842fc6","tarball":"http://registry.npmjs.org/generator-angularfire-fab/-/generator-angularfire-fab-0.2.0.tgz"}}: generator-angularfire-fab
+42 error     at RegClient.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:308:14)
+42 error     at Request._callback (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:246:65)
+42 error     at Request.self.callback (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:236:22)
+42 error     at Request.emit (events.js:98:17)
+42 error     at Request.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:1142:14)
+42 error     at Request.emit (events.js:117:20)
+42 error     at IncomingMessage.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:1096:12)
+42 error     at IncomingMessage.emit (events.js:117:20)
+42 error     at _stream_readable.js:944:16
+42 error     at process._tickCallback (node.js:442:13)
+43 error If you need help, you may report this *entire* log,
+43 error including the npm and node versions, at:
+43 error     <http://github.com/npm/npm/issues>
+44 error System Windows_NT 6.2.9200
+45 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+46 error cwd C:\Users\Fabritzio\yogenerators\generator-angularfire-fab
+47 error node -v v0.10.35
+48 error npm -v 1.4.28
+49 verbose exit [ 1, true ]

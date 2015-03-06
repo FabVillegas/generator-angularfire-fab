@@ -1,27 +1,28 @@
-# generator-angularfire-fab [![Build Status](https://secure.travis-ci.org/FabVillegas/generator-angularfire-fab.png?branch=master)](https://travis-ci.org/FabVillegas/generator-angularfire-fab)
-
-> [Yeoman](http://yeoman.io) generator
-
+# generator-angularfire-fab
 
 ## Getting Started
 
 ### What is Yeoman?
 
-Trick question. It's not a thing. It's this guy:
+"A generator is basically a plugin that can be run with the `yo` command to scaffold complete projects or useful parts."
 
-![](http://i.imgur.com/JHaAlBJ.png)
+Visit the site.
 
-Basically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.
+```bash
+http://yeoman.io
+```
 
-Not every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*
+Install yeoman with npm.
 
 ```bash
 npm install -g yo
 ```
 
-### Yeoman Generators
+### AngularJS + Firebase = <3
 
-Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
+I tried using the official angularfire yeoman generator. I felt it installed too much content for a simple app. I decided to do one myself.
+This generator installs basic modules to work with angularfire, and a simple setup using angular ui-router.
+From this point you can modify it to suit your needs and deploy your apps and websites much faster and maybe lighter and in more complex ways.
 
 To install generator-angularfire-fab from npm, run:
 
@@ -35,11 +36,15 @@ Finally, initiate the generator:
 yo angularfire-fab
 ```
 
-### Getting To Know Yeoman
+### Feel free to visit the repos and sites of the modules this generator uses
 
-Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
+[AngularJS](https://angularjs.org/)
 
-If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
+[Ui-router](https://github.com/angular-ui/ui-router)
+
+[Grunt](http://gruntjs.com)
+
+[Bower](http://bower.io)
 
 
 ## License
